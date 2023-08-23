@@ -1,6 +1,9 @@
 console.log('Simple debugging example running.')
 debugger
 
-let x = 99
+let x = 99;
+let y = 42;
 debugger
-console.log(x)
+console.log(x);
+debugger
+console.log(y);
