@@ -147,3 +147,20 @@ function teamColors(name) {
         }
     }
 }
+
+function teamNames() {
+    for (let team in gameObject()) {
+        let teamsArr = [];
+        teamsArr.push(gameObject()[team].teamName);
+        return teamsArr;
+    }
+}
+
+// function playerNumbers(name) {
+//     for (place in gameObject()) {
+//         let nameOfTeam = gameObject()[place].teamName;
+//         if (name === nameOfTeam) {
+//             console.log([`${name}`])
+//         }
+//     }
+// }
